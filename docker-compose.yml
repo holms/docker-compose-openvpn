@@ -9,6 +9,8 @@ services:
          - NET_ADMIN
      volumes:
          - ovpn-data:/etc/openvpn
+         
+     restart: always
 
 volumes:
     ovpn-data:
